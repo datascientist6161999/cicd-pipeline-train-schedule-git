@@ -21,7 +21,7 @@ task zip(type: Zip){
         include "views/**"
     }
     destinationDir(file("dist"))
-    archivebaseName= "trainSchedule"
+    baseName= "trainSchedule"
 }
 
 build.dependsOn zip
